@@ -29,3 +29,8 @@ The dataset contains the following features:
 3. **Visualization**
    - Scatter plot of actual vs. predicted diamond prices
 
+Installation & Usage
+
+Requirements
+
+Ensure you have the following Python libraries installed:
