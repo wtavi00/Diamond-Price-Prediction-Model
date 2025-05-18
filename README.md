@@ -29,8 +29,12 @@ The dataset contains the following features:
 3. **Visualization**
    - Scatter plot of actual vs. predicted diamond prices
 
-Installation & Usage
+## Installation & Usage
 
-Requirements
+### Requirements
 
 Ensure you have the following Python libraries installed:
+
+```bash
+pip install pandas numpy seaborn scikit-learn matplotlib
+```
