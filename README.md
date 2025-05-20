@@ -38,3 +38,7 @@ Ensure you have the following Python libraries installed:
 ```bash
 pip install pandas numpy seaborn scikit-learn matplotlib
 ```
+
+### Running the Model
+
+1. Clone this repository:
