@@ -53,3 +53,7 @@ cd diamond-price-prediction
 ```bash
 python diamond_price_model.py
 ```
+
+## Results
+
+The model evaluates its performance using:
