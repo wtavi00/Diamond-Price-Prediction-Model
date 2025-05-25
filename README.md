@@ -57,3 +57,7 @@ python diamond_price_model.py
 ## Results
 
 The model evaluates its performance using:
+* **Mean Absolute Error (MAE)**
+* **Mean Squared Error (MSE)**
+* **Root Mean Squared Error (RMSE)**
+* **R² Score**
