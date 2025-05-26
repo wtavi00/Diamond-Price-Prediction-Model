@@ -61,3 +61,7 @@ The model evaluates its performance using:
 * **Mean Squared Error (MSE)**
 * **Root Mean Squared Error (RMSE)**
 * **R² Score**
+
+A scatter plot is generated to visualize the accuracy of predictions compared to actual prices.
+
+## Future Enhancements
