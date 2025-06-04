@@ -32,3 +32,13 @@ model = RandomForestRegressor(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 
 y_pred = model.predict(X_test)
+
+importances = model.feature_importances_
+feature_names = X.columns
+plt.figure(figsize=(10, 6))
+sns.barplot(x=importances, y=feature_names)
+plt.title("Feature Importances")
+plt.xlabel("Importance")
+plt.ylabel("Feature")
+plt.show()
+
