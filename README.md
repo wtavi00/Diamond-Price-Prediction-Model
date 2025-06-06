@@ -65,3 +65,8 @@ The model evaluates its performance using:
 A scatter plot is generated to visualize the accuracy of predictions compared to actual prices.
 
 ## Future Enhancements
+
+* Experiment with other regression models (e.g., XGBoost, Gradient Boosting)
+* Hyperparameter tuning for better performance
+* Feature importance analysis
+
