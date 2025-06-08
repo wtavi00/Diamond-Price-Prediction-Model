@@ -52,3 +52,10 @@ print(f"MSE: {mse}")
 print(f"RMSE: {rmse}")
 print(f"R2 Score: {r2}")
 
+plt.figure(figsize=(8, 6))
+sns.scatterplot(x=y_test, y=y_pred, alpha=0.5)
+plt.xlabel("Actual Price")
+plt.ylabel("Predicted Price")
+plt.title("Actual vs Predicted Diamond Prices")
+plt.show()
+
