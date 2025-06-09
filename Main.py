@@ -59,3 +59,6 @@ plt.ylabel("Predicted Price")
 plt.title("Actual vs Predicted Diamond Prices")
 plt.show()
 
+joblib.dump(model, "diamond_price_model.pkl")
+print("Model saved as diamond_price_model.pkl")
+
