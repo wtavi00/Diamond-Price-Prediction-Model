@@ -62,3 +62,18 @@ plt.show()
 joblib.dump(model, "diamond_price_model.pkl")
 print("Model saved as diamond_price_model.pkl")
 
+def predict_new_diamond(model, scaler, le_cut, le_color, le_clarity, carat, cut, color, clarity, x, y, z, depth, table):
+    data = pd.DataFrame([{
+        "carat": carat,
+        "cut": le_cut.transform([cut])[0],
+        "color": le_color.transform([color])[0],
+        "clarity": le_clarity.transform([clarity])[0],
+        "x": x,
+        "y": y,
+        "z": z,
+        "depth": depth,
+        "table": table
+    }])
+    data_scaled = scaler.transform(data)
+    return model.predict(data_scaled)[0]
+  
