@@ -74,4 +74,4 @@ A scatter plot is generated to visualize the accuracy of predictions compared to
 [Avijit Tarafder](https://github.com/wtavi00)
 
 ### License
-[LICENSE](https://github.com/wtavi00/Diamond-Price-Prediction-Model/blob/main/LICENSE)
+[MIT License](https://github.com/wtavi00/Diamond-Price-Prediction-Model/blob/main/LICENSE)
