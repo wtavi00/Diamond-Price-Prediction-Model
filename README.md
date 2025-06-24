@@ -70,8 +70,8 @@ A scatter plot is generated to visualize the accuracy of predictions compared to
 * Hyperparameter tuning for better performance
 * Feature importance analysis
 
-### Auther
+## Auther
 [Avijit Tarafder](https://github.com/wtavi00)
 
-### License
+## License
 [MIT License](https://github.com/wtavi00/Diamond-Price-Prediction-Model/blob/main/LICENSE)
