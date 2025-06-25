@@ -51,7 +51,7 @@ cd diamond-price-prediction
 2. Run the Python script:
 
 ```bash
-python diamond_price_model.py
+python diamond_price_prediction_model.py
 ```
 
 ## Results
