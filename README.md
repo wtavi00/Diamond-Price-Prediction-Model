@@ -28,6 +28,14 @@ The dataset contains the following features:
 
 3. **Visualization**
    - Scatter plot of actual vs. predicted diamond prices
+  
+## File Structure:
+├── app.py
+├── EDA and Model Training.ipynb
+├── model.pkl
+├── diamond.csv
+└── README.md
+
 
 ## Installation & Usage
 
