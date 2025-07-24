@@ -51,16 +51,17 @@ pip install pandas numpy seaborn scikit-learn matplotlib
 ### Running the Model
 
 1. Clone this repository:
-
-```bash
-cd diamond-price-prediction
-```
-
-2. Run the Python script:
-
-```bash
-python diamond_price_prediction_model.py
-```
+   ```bash
+   git clone https://github.com/wtavi00/Diamond-Price-Prediction-Model.git
+   ```
+2. Navigate to the project directory:
+    ```bash
+   cd diamond-price-prediction
+   ```
+3. Run the Python script:
+   ```bash
+   python diamond_price_prediction_model.py
+   ```
 
 ## Results
 
