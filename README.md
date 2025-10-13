@@ -30,11 +30,20 @@ The dataset contains the following features:
   
 ## File Structure:
 ```bash
-├── app.py
-├── EDA and Model Training.ipynb
-├── model.pkl
-├── diamond.csv
-└── README.md
+diamond-price-prediction/
+│
+├── app/
+│   ├── main.py
+│   ├── models/
+│   │   └── model.pkl
+│   ├── schemas.p
+│   ├── predict.py
+│   ├── train_model.py
+│   └── utils.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
 
 ## Installation & Usage
