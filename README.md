@@ -30,20 +30,23 @@ The dataset contains the following features:
   
 ## File Structure:
 ```bash
-diamond-price-prediction/
+Diamond-Price-Prediction-Model/
 │
 ├── app/
-│   ├── main.py
 │   ├── models/
 │   │   └── model.pkl
-│   ├── schemas.p
+│   ├── schemas.py
 │   ├── predict.py
-│   ├── train_model.py
-│   └── utils.py
+│   ├── __init__.py
+│   └── app.py
 │
-├── requirements.txt
-├── README.md
-└── .gitignore
+├── data/
+│   └── diamonds.csv
+│
+├── main.py
+├── Model Training.py
+├──requirements.txt
+└──.gitignore
 ```
 
 ## Installation & Usage
