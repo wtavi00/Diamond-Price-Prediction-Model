@@ -63,7 +63,13 @@ plt.ylabel("Predicted Price")
 plt.title("Actual vs Predicted Diamond Prices")
 plt.show()
 
-joblib.dump(model, "diamond_price_model.pkl")
+joblib.dump({
+    "model": model,
+    "cut_map": cut_map,
+    "color_map": color_map,
+    "clarity_map": clarity_map
+}, "diamond_price_pipeline.pkl")
+
 print("Model saved as diamond_price_model.pkl")
 
 def predict_new_diamond(model, scaler, le_cut, le_color, le_clarity, carat, cut, color, clarity, x, y, z, depth, table):
