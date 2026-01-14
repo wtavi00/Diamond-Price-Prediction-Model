@@ -16,9 +16,14 @@ if df.isnull().sum().sum() > 0: #
     print("Warning: Missing values found. Dropping rows with missing values.")#
     df = df.dropna()#
 
+
 le_cut = LabelEncoder()
 le_color = LabelEncoder()
 le_clarity = LabelEncoder()
+
+cut_map = {'Fair': 0, 'Good': 1, 'Very Good': 2, 'Premium': 3, 'Ideal': 4}
+color_map = {'J': 0, 'I': 1, 'H': 2, 'G': 3, 'F': 4, 'E': 5, 'D': 6}
+clarity_map = {'I1': 0, 'SI2': 1, 'SI1': 2, 'VS2': 3, 'VS1': 4, 'VVS2': 5, 'VVS1': 6, 'IF': 7}
 
 df['cut'] = le_cut.fit_transform(df['cut'])
 df['color'] = le_color.fit_transform(df['color'])
