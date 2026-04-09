@@ -90,7 +90,7 @@ A scatter plot is generated to visualize the accuracy of predictions compared to
 * Hyperparameter tuning for better performance
 * Feature importance analysis
 
-## Auther
+## Author
 [Avijit Tarafder](https://github.com/wtavi00)
 
 ## License
